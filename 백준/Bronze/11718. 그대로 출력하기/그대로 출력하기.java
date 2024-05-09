@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class Main {
 
@@ -11,7 +10,7 @@ public class Main {
 		while(true) {
 			String str = br.readLine();
 			
-			if(str == null || str.equals("")) break;
+			if(str == null) break;
 			
 			bw.write(str+"\n");
 		}
